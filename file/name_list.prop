@@ -1,0 +1,9 @@
+#you can use this to customize you folder for example
+#please don't use any symbol or space except underscore symbol
+
+
+no_grass=grass_section
+
+
+#that means for no_grass using folder grass_section
+#Like that
