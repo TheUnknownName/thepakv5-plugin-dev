@@ -1,0 +1,56 @@
+#properties
+#some prop are commented bcz that is optional prop
+#remember the prop are use "=" so if you want enable it just uncommented
+
+is_online=  
+#the value can be true or false or boolean
+#means this module Will need a connection.
+#like for download your files from you hosted server
+#or maybe you use own files 
+#this good enough to use seperate feature files
+
+
+name_module=
+#this names for your module
+
+name_id=
+#this actual names so you cant use space or any symbel except "_"
+
+module_description=
+#this input can be a Path of files or directly write in that lines
+
+is_multiple_choice=
+#value is boolean true or false
+#Btw is you make it true then in config.sh you need to specify few arguments
+#for the feature you have
+
+type_paks=
+#this just for known this for mini paks or obb
+#the value can be "mini" "obb"
+#if value are "mini"
+# then ITS for mini paks and you must specify this 
+#header_pak_name=
+#major_pak_name=
+#version_pak_major=
+#version_pak_minor=
+#version_pak_patch=
+#well if you dont want to specify like above then just type 
+#paks_names_version=2
+#bcz 1 is for default like above,actually this names kinda tricky bcz my machine can specify it
+#after that add this line to specify names paks
+#name_pak_of_paks=
+#If value is "obb"
+#Then just add this line
+#name_pak_of_paks=
+#then names of obb
+
+os_type=
+#why must specify this 
+#bcz we see android and IOS are different paks
+#thats why must specify this
+
+
+#config_prop_module=
+#this just optional names of config prop
+#you can change it if not the use default names "config.sh"
+#note don't add extension ada end of the names
