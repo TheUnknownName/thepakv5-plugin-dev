@@ -54,3 +54,7 @@ os_type=
 #this just optional names of config prop
 #you can change it if not the use default names "config.sh"
 #note don't add extension ada end of the names
+
+
+#crc4paks=
+#this optionals we don't recommend to use it
